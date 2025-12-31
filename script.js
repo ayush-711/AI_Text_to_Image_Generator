@@ -58,7 +58,8 @@ function downloadImage(url) {
     
 
 function deleteImage() {
-     document.getElementById("result").innerHTML = ``
+    document.getElementById("result").innerHTML = ``
+    console.log("imageDeleted");
 }
 
 
